@@ -1,0 +1,83 @@
+html,
+body,
+wrapper,
+console {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    background: #2e2e2e;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+wrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+wrapper * {
+    margin: 0.5rem 0;
+}
+
+console {
+    width: 75vw;
+    margin: 12.5vh 0;
+}
+
+pre-input,
+input {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+.input-arrow {
+    color: #007aff;
+}
+
+pre-input {
+    display: flex;
+    align-items: center;
+    color: #007aff;
+    white-space: pre;
+}
+
+input {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    white-space: pre;
+    background: #2e2e2e;
+}
+
+pre-input,
+input,
+message,
+error,
+warn,
+comment {
+    margin: 2px 0;
+    font-size: 18px;
+}
+
+message {
+    color: #fff
+}
+
+error {
+    color: #ff6969;
+}
+
+warn {
+    color: #ffcc69;
+}
+
+comment {
+    color: #ccc;
+}

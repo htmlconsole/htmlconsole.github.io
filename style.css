@@ -81,3 +81,11 @@ warn {
 comment {
     color: #ccc;
 }
+
+a {
+    color: #007aff;
+}
+
+a:hover {
+    color: #0069ee;
+}
